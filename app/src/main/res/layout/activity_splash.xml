@@ -5,6 +5,7 @@
     android:id="@+id/splash_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".SplashActivity"
     android:background="@drawable/splash_screen"
     android:gravity="center">
 
@@ -12,7 +13,5 @@
         android:id="@+id/logo"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:src="@drawable/pr_logo"
-        />
-
+        android:src="@drawable/pr_logo"/>
 </LinearLayout>
